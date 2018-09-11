@@ -3,10 +3,11 @@
 vf.ori.or_netact_10_58_210_45|Nokia_NetAct_System vtnoc_ns:.vf.ori.or_netact_10_58_210_45|/var/opt/temip/scripts/HPONM/RESYNC_SCRIPTS/ORI/resync_ori_bss_oc.sh
 vf.ori.or_netact_10_58_210_45|Nokia_NetAct_System vtnoc_ns:.vf.ori.or_netact_10_58_210_45|/var/opt/temip/scripts/HPONM/RESYNC_SCRIPTS/ORI/resync_ori_nss_oc.sh
 vf.ori.or_netact_10_58_210_45|Nokia_NetAct_System vtnoc_ns:.vf.ori.or_netact_10_58_210_45|/var/opt/temip/scripts/HPONM/RESYNC_SCRIPTS/ORI/resync_ori_infra_oc.sh
+vf.pnb.pb_netact_10_58_210_45|Nokia_NetAct_System vtnoc_ns:.vf.ori.or_netact_10_58_210_45|/var/opt/temip/scripts/HPONM/RESYNC_SCRIPTS/ORI/resync_pnb_infra_oc.sh
 vf.hpd.hp_netact_10_70_192_46|Nokia_NetAct_System vtnoc_ns:.vf.hpd.hp_netact_10_70_192_46|/var/opt/temip/scripts/HPONM/RESYNC_SCRIPTS/HP/resync_hp_bss_oc.sh
 vf.hpd.hp_netact_10_70_192_46|Nokia_NetAct_System vtnoc_ns:.vf.hpd.hp_netact_10_70_192_46|/var/opt/temip/scripts/HPONM/RESYNC_SCRIPTS/HP/resync_hp_nss_oc.sh
 vf.hpd.hp_netact_10_70_192_46|Nokia_NetAct_System vtnoc_ns:.vf.hpd.hp_netact_10_70_192_46|/var/opt/temip/scripts/HPONM/RESYNC_SCRIPTS/HP/resync_hp_infra_oc.sh
-
+//HPE_REL_GIT999_1
 
 # Ericsson Instances.
 
