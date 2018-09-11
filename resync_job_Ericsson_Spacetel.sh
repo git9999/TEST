@@ -1,4 +1,4 @@
-#!/bin/sh
+﻿#!/bin/sh
 # ############################################################################ #
 # Purpose: Automated Resync Script to perform the resync task on need basis.   #
 # Description: Check OC Instance for resync. Whenever OC has Resynchronization #
@@ -82,6 +82,8 @@ find ${BASE_LOC}/temp_jobs/log -mtime +2 -name "*.log" -exec mv {} ${BASE_LOC}/t
 gzip ${BASE_LOC}/temp_jobs/log/archive/*.log 2>/dev/null
 find ${BASE_LOC}/temp_jobs/archive/ -mtime +7 -name "*.job" -exec rm {} \; 2>/dev/null
 find ${BASE_LOC}/temp_jobs/log/archive/ -mtime +7 -name "*.log" -exec rm {} \; 2>/dev/null
+find ${BASE_LOC}/temp_jobs/archive/ -mtime +7 -name "*.job" -exec rm {} \; 2</dev/null
+
 
 export DATE_HR=$(date +'%H')
 export DATE_MIN=$(date +'%M')
