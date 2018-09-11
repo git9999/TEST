@@ -10,4 +10,5 @@ manage set Nokia_NetAct_System vtnoc_ns:.jk_netact_10_81_195_46 Resynchronizatio
 manage set Nokia_NetAct_System vtnoc_ns:.mp_netact_10_69_208_46 ResynchronizationNeeded=True
 manage set Nokia_NetAct_System vtnoc_ns:.or_netact_10_58_210_45 ResynchronizationNeeded=True
 manage set Nokia_NetAct_System vtnoc_ns:.sh_netact_10_8_197_46 ResynchronizationNeeded=True
+manage show Nokia_NetAct_System vtnoc_ns:.srn_netact_10_81_196_46 synchronizationNeeded
 manage set Nokia_NetAct_System vtnoc_ns:.srn_netact_10_81_196_46 ResynchronizationNeeded=True
